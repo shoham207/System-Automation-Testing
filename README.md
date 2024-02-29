@@ -2,31 +2,29 @@
 This is a repository for the system-testing assignment of the Software Quality Engineering course at the [Ben-Gurion University](https://in.bgu.ac.il/), Israel.
 
 ## Assignment Description
-In this assignment, we tested an open-source software called [$$*TODO* software name$$](https://address-of-the-project.com).
+In this assignment, we tested an open-source software called [PrestaShop](https://github.com/PrestaShop/PrestaShop).
 
-$$*TODO* Add some general description about the software$$
-
-## Installation
-$$*TODO* Write instructions on how to install the software and prepare the testing environment$$
+PrestaShop is an open-source e-commerce platform that allows businesses to create and manage online stores. It provides a wide range of features and functionalities to help merchants set up their online storefronts, manage products, process orders, handle payments, and more. PrestaShop is highly customizable, offering various themes and modules to tailor the store's appearance and functionality to specific needs. It also includes tools for marketing, SEO optimization, and analytics to help merchants attract customers and grow their online businesses.
 
 ## What we tested
-$$*TODO* Add a description of the module and the user stories that you chose to test.
-For example, in the case of the Moodle example, you can write something like this:
+Module Description:
+The wishlist module enables users to add products they are interested in to a wishlist for future reference or purchase consideration. It provides functionality for managing the wishlist, including adding products with specific quantities.
 
-We tested the quiz module that allows for creating and taking quizzes. We chose to test the following user stories: 
+User Stories Tested:
 
-*User story:* A teacher adds a new quiz to the course with two yes/no questions
+1. **User Story:** Adding products to wishlist with quantity X.
 
-*Preconditions:* There is a course with a teacher
+   *Preconditions:* The user is logged in and navigates to a product page. The product is available for adding to the wishlist.
 
-*Expected outcome:* The quiz is added to the course.
+   *Expected Outcome:* The user successfully adds the product to their wishlist with the specified quantity X. The product is listed in the user's wishlist with the desired quantity.
 
-*User story:* A students attempts a quiz and answers correctly.
+2. **User Story:** Admin changes the quantity of a product to less than X.
 
-*Preconditions:* There is a course with a quiz with two yes/no questions and the quiz grade is calculated automatically and the grade is visible to the students upon submission.
+   *Preconditions:* The admin is logged in and accesses the product management interface. The product with a wishlist quantity greater than X exists.
 
-*Expected outcome:* The student receives 100.
-$$
+   *Expected Outcome:* Upon changing the quantity of the product to less than X, the system appropriately updates the wishlist. If the quantity change results in the wishlist quantity being less than X, the product is still retained in the wishlist but with the updated quantity. If the quantity becomes zero, the product may be removed from the wishlist, depending on the system's implementation.
+
+These user stories encompass common interactions with the wishlist module, covering both user and admin perspectives, ensuring the module's functionality meets the intended requirements and expectations.
 
 ## How we tested
 We used two different testing methods:
@@ -34,9 +32,6 @@ We used two different testing methods:
 2. [Provengo](https://provengo.tech/), a story-based testing framework.
 
 Each of the testing methods is elaborated in its own directory. 
-
-## Results
-Update all README.md files (except for d-e, see Section 1). Specifically, replace all $$*TODO*…$$ according to the instructions inside the $$.
 
 ## Detected Bugs
 We detected the following bugs:
