@@ -1,4 +1,4 @@
-# Testing $$*TODO* software name$$ using Cucumber
+# Testing PrestaShop using Cucumber
 This directory contains the cucumber files for testing the wishList module of the PrestaShop application.
 
 ## Running the tests
