@@ -1,5 +1,5 @@
 # Testing PrestaShop using Provengo
-This directory contains the Provengo project for testing $$*TODO* software name$$.
+This directory contains the Provengo project for testing PrestaShop.
 
 $$*TODO* 
 1. replace the name of the folder 'helloprovengo' with the name of your software (use underscore/title case to avoid spaces)
