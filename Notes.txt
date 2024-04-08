@@ -1,4 +1,4 @@
-------------------------------- Catigories -------------------------------
+------------------------------- Categories -------------------------------
 =========== 1 ===========
 user login
 add to wish list
@@ -17,10 +17,3 @@ user login
 add to wish list
 change quantity
 
-
-------------------------------- TODO -------------------------------
-- Ranking
-- Sample Creation & Running
-- README
-- Final recap
-- SUBMISSION

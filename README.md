@@ -45,8 +45,5 @@ We detected the following bugs:
          - User checks the quantity of the product in the wishlist
    3. Expected result: Quantity = New changed quantity (Y)
    4. Actual result: Quantity = old quantity (X)
-   5. Link to the bug report: [Report File]
-      https://github.com/BGU-SE-Courses/sqe-system-testing/blob/f6db0dd4949bf61b082e54caee730594b6109ff2/Provengo/out.txt/suites/suite-138
+   5. Link to the bug report: [Report File](Provengo/reports/suites/suite-142)
    (you are encouraged to report the bug to the developers of the software)
-      
-   - (TODO: TO BE DELETED)you can use this link to help generate reports:https://docs.provengo.tech/ProvengoCli/0.9.5/subcommands/reports.html

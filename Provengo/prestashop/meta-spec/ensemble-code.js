@@ -4,25 +4,22 @@
  * List of events "of interest" that we want test suites to cover.
  */
 const GOALS = [
-//    any(/Start\(user_login\)/),
-//    any(/End\(user_login\)/),
+
     any(/Start\(add_to_wishlist\)/),
     any(/End\(add_to_wishlist\)/),
     any(/Start\(check_quantity_before\)/),
     any(/End\(check_quantity_before\)/),
-//    any(/Start\(admin_login\)/),
-//    any(/End\(admin_login\)/),
+
     any(/Start\(admin_change_quantity\)/),
     any(/End\(admin_change_quantity\)/),
     any(/Start\(check_quantity_after\)/),
     any(/End\(check_quantity_after\)/),
-    Ctrl.markEvent("Classic!")
+
 ];
 
 const makeGoals = function(){
-    return [ [ any(/Howdy/), any(/Venus/) ],
-             [ any(/Mars/) ],
-             [ Ctrl.markEvent("Classic!") ] ];
+    return [ [ Ctrl.markEvent("add_to_wishlist") ],
+              [ Ctrl.markEvent("admin_change_quantity") ]];
 }
 
 
