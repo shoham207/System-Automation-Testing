@@ -1,4 +1,4 @@
-# Testing $$*TODO* software name$$ using Provengo
+# Testing PrestaShop using Provengo
 This directory contains the Provengo project for testing $$*TODO* software name$$.
 
 $$*TODO* 
