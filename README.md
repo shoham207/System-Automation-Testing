@@ -2,7 +2,8 @@
 This is a repository for the system-testing assignment of the Software Quality Engineering course at the [Ben-Gurion University](https://in.bgu.ac.il/), Israel.
 
 ## Assignment Description
-In this assignment, we tested an open-source software called [PrestaShop](https://github.com/PrestaShop/PrestaShop).
+In this assignment, we tested an open-source software called [PrestaShop](https://github.com/PrestaShop/PrestaShop).\
+
 
 PrestaShop is an open-source e-commerce platform that allows businesses to create and manage online stores. It provides a wide range of features and functionalities to help merchants set up their online storefronts, manage products, process orders, handle payments, and more. PrestaShop is highly customizable, offering various themes and modules to tailor the store's appearance and functionality to specific needs. It also includes tools for marketing, SEO optimization, and analytics to help merchants attract customers and grow their online businesses.
 
@@ -37,9 +38,15 @@ Each of the testing methods is elaborated in its own directory.
 We detected the following bugs:
 
 1. Bug 1: 
-   1. General description: ...
-   2. Steps to reproduce: ...
-   3. Expected result: ...
-   4. Actual result: ...
-   5. Link to the bug report: (you are encouraged to report the bug to the developers of the software)
-
+   1. General description: Quantity doesn't change in user's wishlist when admin changes the quantity of the product
+   2. Steps to reproduce: 
+         - User add to wish list a product with quantity X
+         - Admin changes the quantity of the product to Y (Y less than X).
+         - User checks the quantity of the product in the wishlist
+   3. Expected result: Quantity = New changed quantity (Y)
+   4. Actual result: Quantity = old quantity (X)
+   5. Link to the bug report: [Report File]
+      https://github.com/BGU-SE-Courses/sqe-system-testing/blob/f6db0dd4949bf61b082e54caee730594b6109ff2/Provengo/out.txt/suites/suite-138
+   (you are encouraged to report the bug to the developers of the software)
+      
+   - (TODO: TO BE DELETED)you can use this link to help generate reports:https://docs.provengo.tech/ProvengoCli/0.9.5/subcommands/reports.html

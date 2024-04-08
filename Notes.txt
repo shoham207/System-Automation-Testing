@@ -1,0 +1,26 @@
+------------------------------- Catigories -------------------------------
+=========== 1 ===========
+user login
+add to wish list
+admin login
+change quantity
+
+=========== 2 ===========
+user login
+admin login
+add to wish list
+change quantity
+
+=========== 3 ===========
+admin login
+user login
+add to wish list
+change quantity
+
+
+------------------------------- TODO -------------------------------
+- Ranking
+- Sample Creation & Running
+- README
+- Final recap
+- SUBMISSION
